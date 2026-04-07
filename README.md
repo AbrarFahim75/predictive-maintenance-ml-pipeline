@@ -49,10 +49,6 @@ The pipeline follows a structured workflow:
 │ Visualization / Output   │
 └──────────────────────────┘
 
-
-
-Each stage is implemented independently to keep the system maintainable and easy to extend.
-
 ---
 
 ## Dataset
@@ -136,20 +132,37 @@ predictive-maintenance-ml-pipeline/
 
 ---
 
-## How it works
-1. Generate simulated sensor data  
-2. Introduce artificial anomalies  
-3. Detect anomalies using statistical thresholds  
-4. Visualize results  
+---
+
+## Execution
+
+The pipeline operates as follows:
+
+1. Load the dataset into memory  
+2. Aggregate selected sensor features into a unified signal  
+3. Compute statistical boundaries based on mean and standard deviation  
+4. Identify observations outside the defined range as anomalies  
+5. Visualize the signal along with detected anomalies  
 
 ---
 
-## Example Output
-The system detects anomalies in sensor data and highlights them in red on the graph.
+## Output
 
-- Blue line → normal sensor readings  
-- Red points → detected anomalies  
+The system produces a time-series visualization of the sensor signal:
 
+- Continuous signal represents normal operating conditions  
+- Points outside statistical bounds are marked as anomalies  
+
+This allows quick inspection of abnormal behavior in the data.
+
+---
+
+## Running the Project
+
+Install dependencies:
+
+```bash
+pip install -r requirements.txt
 
 ---
 
