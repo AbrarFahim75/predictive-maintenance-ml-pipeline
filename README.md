@@ -1,5 +1,18 @@
 # AI-Based Predictive Maintenance System
 
+<p align="center">
+  <img src="https://img.shields.io/badge/Machine%20Learning-Pipeline-blue?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/Status-Active-success?style=for-the-badge" />
+</p>
+
+<p align="center">
+  🚀 End-to-end machine learning pipeline for predictive maintenance  
+  📊 Detect anomalies before failure happens  
+</p>
+
+---
+
 ## Overview
 This project simulates a predictive maintenance system using sensor data and anomaly detection techniques.
 
