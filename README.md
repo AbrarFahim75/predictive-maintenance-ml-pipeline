@@ -25,29 +25,15 @@ The system focuses on detecting deviations in sensor readings that may indicate 
 
 The pipeline follows a structured workflow:
 
-        ┌──────────────┐
-        │   Raw Data   │
-        └──────┬───────┘
-               │
-               ▼
-      ┌──────────────────┐
-      │ Data Processing  │
-      └──────┬───────────┘
-             │
-             ▼
-    ┌────────────────────┐
-    │ Feature Selection  │
-    └──────┬─────────────┘
-           │
-           ▼
-┌──────────────────────────┐
-│ Anomaly Detection Module │
-└──────┬───────────────────┘
-       │
-       ▼
-┌──────────────────────────┐
-│ Visualization / Output   │
-└──────────────────────────┘
+[Raw Data]
+↓
+[Data Processing]
+↓
+[Feature Selection]
+↓
+[Anomaly Detection]
+↓
+[Visualization / Output]
 
 ---
 
