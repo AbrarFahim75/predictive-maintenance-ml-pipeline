@@ -1,13 +1,20 @@
 # AI-Based Predictive Maintenance System
 
 <p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=rect&color=0:1f1c2c,100:928dab&height=120&section=header&text=Predictive%20Maintenance&fontSize=28&fontColor=ffffff"/>
+</p>
+
+<p align="center">
   <img src="https://img.shields.io/badge/Machine%20Learning-Pipeline-blue?style=flat-square" />
   <img src="https://img.shields.io/badge/Python-3.10+-yellow?style=flat-square" />
   <img src="https://img.shields.io/badge/Status-Active-success?style=flat-square" />
 </p>
 
 <p align="center">
-  End-to-end pipeline for predictive maintenance using sensor data  
+  End-to-end pipeline for predictive maintenance using sensor data
+</p>
+
+<p align="center">
   Statistical anomaly detection for early fault identification
 </p>
 
